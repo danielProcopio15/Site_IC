@@ -1,0 +1,206 @@
+.center{
+    text-align: center;
+    margin: auto;
+    margin-top:-15px;
+    background-color: rgb(162, 162, 243);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-right: 20px;
+}
+.index{
+    background-color: rgb(225, 215, 252);
+    background-size: cover;
+ 
+}
+
+.background{
+    background-color:rgb(202, 248, 202);
+    border-radius: 10px;
+}
+
+.lined{
+    display: flex;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+span{
+    color: blue;
+}
+
+
+.explicatiom{
+    background-color: rgb(233, 217, 217);
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+a{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(80, 80, 206);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+    
+a:hover{
+    background-color: rgb(188, 188, 235);
+}
+
+
+
+
+form{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(216, 250, 173);
+    display: grid;
+    padding: 20px;
+    width: 700px;
+    border-radius: 20px;
+    
+    
+   
+}
+
+
+
+form textarea{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    border: solid black;
+    border-radius: 20px;
+    opacity: 1.0;
+    font-size: 20px;
+    color: black;
+    
+}
+
+
+
+.prop-image{
+
+    background-image: url(../images/br-br-patapim.jpg);
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+ul li{
+   text-decoration: none;
+   display: grid;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 20px;
+
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+img:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3)
+}
+
+input[type = submit]:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3)
+    
+}
+
+figcaption{
+    text-align: center;
+    margin-top: -20px;
+    margin: -20px auto;
+}
+
+
+.cadastro{
+    position: relative;
+    margin-top: 10px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: solid rgb(231, 231, 231) 1px;
+
+
+}
+
+.cadastro input[type = text], input[type = email], textarea{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(226, 226, 226);
+    
+}
+
+.cadastro input[type = text]:hover, input[type = email]:hover, textarea:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3)
+}
+
+.choice{
+    display: flex;
+    margin-right: -20px;
+    text-decoration: none;
+}
+
+.button1{
+    background-color: rgb(80, 80, 206);
+    border: none;
+    margin-left: auto; 
+    padding: 10px; 
+    border-radius: 10px; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+
+}
+
+button:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor:pointer;
+}
+
+
+footer{
+    position: fixed;
+    margin-bottom: 0 auto;
+    margin-left: 0 auto;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.imagem-gerada {
+    margin-top: 2rem;
+    border: 2px dashed #ccc;
+    padding: 2rem;
+    border-radius: 11px;
+    color: gray;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 100px;
+}
