@@ -204,3 +204,9 @@ footer{
     margin-right: 600px;
     padding-bottom: 100px;
 }
+
+.home{
+    position: fixed;
+    left: 20px;
+    top: 7px;
+}
